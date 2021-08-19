@@ -1,0 +1,15 @@
+Link:
+https://github.com/jamessan/vim-gnupg
+
+Download plugin:
+	#wget -O ~/.vim/plugin/gnupg.vim http://www.vim.org/scripts/download_script.php?src_id=18070
+
+Add lines to .vimrc:
+	#echo 'let g:GPGPreferArmor=1' >> ~/.vimrc
+	#echo 'let g:GPGDefaultRecipients=["name@example.com"]' >> ~/.vimrc
+
+Add line to ~/.bashrc:
+	#echo 'export GPG_TTY=`tty`' >> ~/.bashrc
+	#source ~/.bashrc
+	
+Encrypted files must have a '.gpg‘, '.pgp’ or ‘.asc' suffix!
