@@ -1,6 +1,6 @@
 # Download plugin manager:
 #
-#	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+$	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Add VIM repository:
 sudo add-apt-repository ppa:jonathonf/vim
@@ -83,6 +83,6 @@ Add repos needed and install plugins using :PlugInstall command.
 
 
 Add PowerLine font:
-# apt install fonts_firacode
+$ apt install fonts_firacode
 
 Set Firacode font as terminal font.
